@@ -8,7 +8,6 @@ frontend setup - within the frontend directory, execute
     (1) npm start
         http://localhost:3000
 
-database setup
-    -mysql
-        database name - bookreview
-        tables - users, books, reviews
+database setup - mysql
+       (1) database name - bookreview
+       (2) tables - users, books, reviews
