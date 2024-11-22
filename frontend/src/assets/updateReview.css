@@ -1,0 +1,61 @@
+.update-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.update-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.update-form .form-group {
+  margin-bottom: 15px;
+}
+
+.update-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.update-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-form .update-button,
+.update-form .cancel-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-form .cancel-button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.update-form .update-button:hover {
+  background-color: #45a049;
+}
+
+.update-form .cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+.update-form .form-group .MuiRating-root {
+  margin-top: 5px;
+}
